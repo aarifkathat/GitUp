@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(253, 253, 253, 0.863);
+}
+.top{
+    position: absolute;
+    background-color: rgba(0, 255, 34, 0.712);
+    top: 0%;
+    right: 0px;
+    left: 0%;
+    width: 100%;
+    z-index: -1;
+    height: 10%;
+}
+div.nevber img{
+    width: 85px;
+    height: 85px;
+   display: block;
+   margin:12px auto ;
+}
+div.nevber h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    /* background-color: rgb(0, 140, 255); */
+
+ }
+ section{
+     text-align: center;
+     width: 50%; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin:  10% auto ;
+ }
+ section h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 5%;
+ }
+.btn {
+background-color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 100px; 
+margin:auto;
+padding: 9px ;
+border-radius: 15px;
+}
+.btn a{
+color:black;
+text-decoration: none;
+}
+.btn:hover{
+border-radius: 20px;
+text-decoration: underline;
+}
